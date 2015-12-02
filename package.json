@@ -1,7 +1,7 @@
 {
   "name": "rucksack",
-  "version": "0.0.1",
-  "description": "Prefix CSS",
+  "version": "1.0.0",
+  "description": "A little bag of CSS superpowers",
   "license": "MIT",
   "repository": "zhouwenbin/atom-rucksack",
   "private": true,

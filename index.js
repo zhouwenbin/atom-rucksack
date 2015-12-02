@@ -1,6 +1,6 @@
 /** @babel */
 import postcss from 'postcss';
-import rucksack from 'rucksack';
+import rucksack from 'rucksack-css';
 import postcssSafeParser from 'postcss-safe-parser';
 
 function init() {
