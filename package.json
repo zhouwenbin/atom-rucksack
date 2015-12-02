@@ -1,0 +1,41 @@
+{
+  "name": "rucksack",
+  "version": "3.1.0",
+  "description": "Prefix CSS",
+  "license": "MIT",
+  "repository": "zhouwenbin/atom-rucksack",
+  "private": true,
+  "author": {
+    "name": "zhouwenbin",
+    "email": "zwb86@qq.com",
+    "url": "zhouwenbin.com"
+  },
+  "activationCommands": {
+    "atom-workspace": "rucksack"
+  },
+  "engines": {
+    "atom": ">=1.0.0"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "keywords": [
+    "css",
+    "prefix",
+    "prefixer"
+  ],
+  "dependencies": {
+    "rucksack-css": "^0.8.5",
+    "postcss": "^5.0.4",
+    "postcss-safe-parser": "^1.0.1"
+  },
+  "devDependencies": {
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true,
+    "globals": [
+      "atom"
+    ]
+  }
+}
